@@ -112,7 +112,7 @@ class Dictionary
                 delete root;
                 return temp;
             }
-            else if(root->left)
+            else if(root->right)
             {
                 Node *temp = root->left;
                 delete root;
